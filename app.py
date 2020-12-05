@@ -19,4 +19,4 @@ def echo_():
 
 
 if __name__ == "__main__":
-    app.run("0.0.0.0", port=5055)
+    app.run("0.0.0.0", port=5055, ssl_context='adhoc')
